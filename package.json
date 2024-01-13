@@ -1,5 +1,5 @@
 {
-  "name": "zstatic",
+  "name": "ztatic",
   "version": "1.0.0",
   "description": "Ztatic creates a JavaScript file that lists the resources present in your distribution directory. This is particularly useful for caching these files from a service worker.",
   "main": "index.js",
