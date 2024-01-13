@@ -14,6 +14,7 @@ let target = null;
 let errors = false;
 
 for (const arg of process.argv) {
+  console.log(arg)
   if (arg.indexOf("=") > -1) {
     const [key, value] = arg.split("=");
     switch (key) {
@@ -37,9 +38,9 @@ for (const arg of process.argv) {
 if (!distFolder || errors) {
   console.log("Ztatic creates a JavaScript file that lists the resources present in your distribution directory. This is particularly useful for caching these files from a service worker.")
   console.log("Syntax:");
-  console.log("  ztatic --distFolder=[distFolderPath]")
+  console.log("  ztatic --distfolder=[distFolderPath]")
   console.log("Options:");
-  console.log(" --baseUrl=[siteRootFolder]");
+  console.log(" --baseurl=[siteRootFolder]");
   console.log(" --target=[pathToOutputFile]");
   process.exit(1);
 }
