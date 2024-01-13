@@ -1,0 +1,26 @@
+{
+  "name": "zstatic",
+  "version": "1.0.0",
+  "description": "Ztatic creates a JavaScript file that lists the resources present in your distribution directory. This is particularly useful for caching these files from a service worker.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/steevelefort/ztatic.git"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "cache",
+    "list"
+  ],
+  "author": "Steeve Lefort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steevelefort/ztatic/issues"
+  },
+  "homepage": "https://github.com/steevelefort/ztatic#readme"
+}
